@@ -1,0 +1,4294 @@
+{
+  "literal_prior": {
+    "none": {
+      "n": 114,
+      "accepted": 35,
+      "correct": 27,
+      "wrong": 8,
+      "accuracy": 0.23684210526315788,
+      "abstention_rate": 0.6929824561403508,
+      "wrong_target_risk": 0.22857142857142856,
+      "wrong_per_candidate": 0.07017543859649122,
+      "relation_precision": null,
+      "relation_recall": null,
+      "coverage": 0.30701754385964913,
+      "scene_mean_accuracy": 0.34520891690009337,
+      "paired_scene_mean_delta": 0.0,
+      "paired_scene_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "class_balanced_accuracy": 0.37202380952380953,
+      "transitions": {
+        "correct_to_wrong": 0,
+        "wrong_to_correct": 0,
+        "accepted_to_abstained": 0,
+        "abstained_to_accepted": 0,
+        "category_changes": 0
+      },
+      "category_change_rate": 0.0,
+      "per_class": {
+        "potted plant": {
+          "n": 3,
+          "correct": 2
+        },
+        "tv": {
+          "n": 3,
+          "correct": 0
+        },
+        "chair": {
+          "n": 6,
+          "correct": 1
+        },
+        "person": {
+          "n": 42,
+          "correct": 0
+        },
+        "refrigerator": {
+          "n": 2,
+          "correct": 1
+        },
+        "vase": {
+          "n": 1,
+          "correct": 0
+        },
+        "dining table": {
+          "n": 2,
+          "correct": 1
+        },
+        "bird": {
+          "n": 1,
+          "correct": 1
+        },
+        "boat": {
+          "n": 2,
+          "correct": 0
+        },
+        "cell phone": {
+          "n": 2,
+          "correct": 0
+        },
+        "backpack": {
+          "n": 3,
+          "correct": 0
+        },
+        "handbag": {
+          "n": 3,
+          "correct": 1
+        },
+        "cat": {
+          "n": 1,
+          "correct": 1
+        },
+        "keyboard": {
+          "n": 2,
+          "correct": 1
+        },
+        "airplane": {
+          "n": 2,
+          "correct": 2
+        },
+        "bus": {
+          "n": 4,
+          "correct": 3
+        },
+        "train": {
+          "n": 1,
+          "correct": 0
+        },
+        "stop sign": {
+          "n": 2,
+          "correct": 1
+        },
+        "truck": {
+          "n": 1,
+          "correct": 0
+        },
+        "sports ball": {
+          "n": 1,
+          "correct": 0
+        },
+        "baseball glove": {
+          "n": 1,
+          "correct": 0
+        },
+        "sandwich": {
+          "n": 1,
+          "correct": 0
+        },
+        "bowl": {
+          "n": 2,
+          "correct": 0
+        },
+        "bed": {
+          "n": 3,
+          "correct": 1
+        },
+        "book": {
+          "n": 2,
+          "correct": 0
+        },
+        "clock": {
+          "n": 1,
+          "correct": 0
+        },
+        "oven": {
+          "n": 1,
+          "correct": 0
+        },
+        "car": {
+          "n": 7,
+          "correct": 1
+        },
+        "tennis racket": {
+          "n": 2,
+          "correct": 2
+        },
+        "skis": {
+          "n": 1,
+          "correct": 0
+        },
+        "bear": {
+          "n": 1,
+          "correct": 1
+        },
+        "zebra": {
+          "n": 2,
+          "correct": 2
+        },
+        "apple": {
+          "n": 1,
+          "correct": 1
+        },
+        "laptop": {
+          "n": 1,
+          "correct": 1
+        },
+        "mouse": {
+          "n": 1,
+          "correct": 0
+        },
+        "teddy bear": {
+          "n": 3,
+          "correct": 3
+        }
+      },
+      "per_scene": [
+        {
+          "scene_id": "139",
+          "n": 10,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.1,
+          "abstention_rate": 0.9,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.1,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1268",
+          "n": 10,
+          "accepted": 3,
+          "correct": 2,
+          "wrong": 1,
+          "accuracy": 0.2,
+          "abstention_rate": 0.7,
+          "wrong_target_risk": 0.3333333333333333,
+          "wrong_per_candidate": 0.1,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.2,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1675",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1761",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "2006",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1353",
+          "n": 7,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "724",
+          "n": 3,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.3333333333333333,
+          "abstention_rate": 0.6666666666666667,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.3333333333333333,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "872",
+          "n": 4,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1425",
+          "n": 2,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "632",
+          "n": 6,
+          "accepted": 3,
+          "correct": 3,
+          "wrong": 0,
+          "accuracy": 0.5,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1993",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1296",
+          "n": 4,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "802",
+          "n": 2,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.5,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1532",
+          "n": 7,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.14285714285714285,
+          "abstention_rate": 0.7142857142857143,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.14285714285714285,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.14285714285714285,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1584",
+          "n": 10,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 0.2,
+          "abstention_rate": 0.8,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.2,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "885",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "785",
+          "n": 2,
+          "accepted": 1,
+          "correct": 0,
+          "wrong": 1,
+          "accuracy": 0.0,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 1.0,
+          "wrong_per_candidate": 0.5,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1490",
+          "n": 1,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "285",
+          "n": 1,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1818",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1000",
+          "n": 17,
+          "accepted": 3,
+          "correct": 1,
+          "wrong": 2,
+          "accuracy": 0.058823529411764705,
+          "abstention_rate": 0.8235294117647058,
+          "wrong_target_risk": 0.6666666666666666,
+          "wrong_per_candidate": 0.11764705882352941,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.058823529411764705,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "2149",
+          "n": 2,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.5,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.5,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1503",
+          "n": 4,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.25,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.25,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "776",
+          "n": 4,
+          "accepted": 4,
+          "correct": 3,
+          "wrong": 1,
+          "accuracy": 0.75,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.25,
+          "wrong_per_candidate": 0.25,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.75,
+          "delta": 0.0
+        }
+      ]
+    },
+    "general": {
+      "n": 114,
+      "accepted": 35,
+      "correct": 27,
+      "wrong": 8,
+      "accuracy": 0.23684210526315788,
+      "abstention_rate": 0.6929824561403508,
+      "wrong_target_risk": 0.22857142857142856,
+      "wrong_per_candidate": 0.07017543859649122,
+      "relation_precision": null,
+      "relation_recall": null,
+      "coverage": 0.30701754385964913,
+      "scene_mean_accuracy": 0.34520891690009337,
+      "paired_scene_mean_delta": 0.0,
+      "paired_scene_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "class_balanced_accuracy": 0.37202380952380953,
+      "transitions": {
+        "correct_to_wrong": 0,
+        "wrong_to_correct": 0,
+        "accepted_to_abstained": 0,
+        "abstained_to_accepted": 0,
+        "category_changes": 0
+      },
+      "category_change_rate": 0.0,
+      "per_class": {
+        "potted plant": {
+          "n": 3,
+          "correct": 2
+        },
+        "tv": {
+          "n": 3,
+          "correct": 0
+        },
+        "chair": {
+          "n": 6,
+          "correct": 1
+        },
+        "person": {
+          "n": 42,
+          "correct": 0
+        },
+        "refrigerator": {
+          "n": 2,
+          "correct": 1
+        },
+        "vase": {
+          "n": 1,
+          "correct": 0
+        },
+        "dining table": {
+          "n": 2,
+          "correct": 1
+        },
+        "bird": {
+          "n": 1,
+          "correct": 1
+        },
+        "boat": {
+          "n": 2,
+          "correct": 0
+        },
+        "cell phone": {
+          "n": 2,
+          "correct": 0
+        },
+        "backpack": {
+          "n": 3,
+          "correct": 0
+        },
+        "handbag": {
+          "n": 3,
+          "correct": 1
+        },
+        "cat": {
+          "n": 1,
+          "correct": 1
+        },
+        "keyboard": {
+          "n": 2,
+          "correct": 1
+        },
+        "airplane": {
+          "n": 2,
+          "correct": 2
+        },
+        "bus": {
+          "n": 4,
+          "correct": 3
+        },
+        "train": {
+          "n": 1,
+          "correct": 0
+        },
+        "stop sign": {
+          "n": 2,
+          "correct": 1
+        },
+        "truck": {
+          "n": 1,
+          "correct": 0
+        },
+        "sports ball": {
+          "n": 1,
+          "correct": 0
+        },
+        "baseball glove": {
+          "n": 1,
+          "correct": 0
+        },
+        "sandwich": {
+          "n": 1,
+          "correct": 0
+        },
+        "bowl": {
+          "n": 2,
+          "correct": 0
+        },
+        "bed": {
+          "n": 3,
+          "correct": 1
+        },
+        "book": {
+          "n": 2,
+          "correct": 0
+        },
+        "clock": {
+          "n": 1,
+          "correct": 0
+        },
+        "oven": {
+          "n": 1,
+          "correct": 0
+        },
+        "car": {
+          "n": 7,
+          "correct": 1
+        },
+        "tennis racket": {
+          "n": 2,
+          "correct": 2
+        },
+        "skis": {
+          "n": 1,
+          "correct": 0
+        },
+        "bear": {
+          "n": 1,
+          "correct": 1
+        },
+        "zebra": {
+          "n": 2,
+          "correct": 2
+        },
+        "apple": {
+          "n": 1,
+          "correct": 1
+        },
+        "laptop": {
+          "n": 1,
+          "correct": 1
+        },
+        "mouse": {
+          "n": 1,
+          "correct": 0
+        },
+        "teddy bear": {
+          "n": 3,
+          "correct": 3
+        }
+      },
+      "per_scene": [
+        {
+          "scene_id": "139",
+          "n": 10,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.1,
+          "abstention_rate": 0.9,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.1,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1268",
+          "n": 10,
+          "accepted": 3,
+          "correct": 2,
+          "wrong": 1,
+          "accuracy": 0.2,
+          "abstention_rate": 0.7,
+          "wrong_target_risk": 0.3333333333333333,
+          "wrong_per_candidate": 0.1,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.2,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1675",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1761",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "2006",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1353",
+          "n": 7,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "724",
+          "n": 3,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.3333333333333333,
+          "abstention_rate": 0.6666666666666667,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.3333333333333333,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "872",
+          "n": 4,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1425",
+          "n": 2,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "632",
+          "n": 6,
+          "accepted": 3,
+          "correct": 3,
+          "wrong": 0,
+          "accuracy": 0.5,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1993",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1296",
+          "n": 4,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "802",
+          "n": 2,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.5,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1532",
+          "n": 7,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.14285714285714285,
+          "abstention_rate": 0.7142857142857143,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.14285714285714285,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.14285714285714285,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1584",
+          "n": 10,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 0.2,
+          "abstention_rate": 0.8,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.2,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "885",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "785",
+          "n": 2,
+          "accepted": 1,
+          "correct": 0,
+          "wrong": 1,
+          "accuracy": 0.0,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 1.0,
+          "wrong_per_candidate": 0.5,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1490",
+          "n": 1,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "285",
+          "n": 1,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1818",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1000",
+          "n": 17,
+          "accepted": 3,
+          "correct": 1,
+          "wrong": 2,
+          "accuracy": 0.058823529411764705,
+          "abstention_rate": 0.8235294117647058,
+          "wrong_target_risk": 0.6666666666666666,
+          "wrong_per_candidate": 0.11764705882352941,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.058823529411764705,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "2149",
+          "n": 2,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.5,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.5,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1503",
+          "n": 4,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.25,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.25,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "776",
+          "n": 4,
+          "accepted": 4,
+          "correct": 3,
+          "wrong": 1,
+          "accuracy": 0.75,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.25,
+          "wrong_per_candidate": 0.25,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.75,
+          "delta": 0.0
+        }
+      ]
+    },
+    "detailed": {
+      "n": 114,
+      "accepted": 54,
+      "correct": 38,
+      "wrong": 16,
+      "accuracy": 0.3333333333333333,
+      "abstention_rate": 0.5263157894736843,
+      "wrong_target_risk": 0.2962962962962963,
+      "wrong_per_candidate": 0.14035087719298245,
+      "relation_precision": null,
+      "relation_recall": null,
+      "coverage": 0.47368421052631576,
+      "scene_mean_accuracy": 0.44312558356676,
+      "paired_scene_mean_delta": 0.09791666666666667,
+      "paired_scene_bootstrap_95ci": [
+        0.02202380952380952,
+        0.19167410714285701
+      ],
+      "class_balanced_accuracy": 0.45006613756613756,
+      "transitions": {
+        "correct_to_wrong": 0,
+        "wrong_to_correct": 0,
+        "accepted_to_abstained": 0,
+        "abstained_to_accepted": 19,
+        "category_changes": 19
+      },
+      "category_change_rate": 0.16666666666666666,
+      "per_class": {
+        "potted plant": {
+          "n": 3,
+          "correct": 2
+        },
+        "tv": {
+          "n": 3,
+          "correct": 0
+        },
+        "chair": {
+          "n": 6,
+          "correct": 1
+        },
+        "person": {
+          "n": 42,
+          "correct": 7
+        },
+        "refrigerator": {
+          "n": 2,
+          "correct": 1
+        },
+        "vase": {
+          "n": 1,
+          "correct": 0
+        },
+        "dining table": {
+          "n": 2,
+          "correct": 1
+        },
+        "bird": {
+          "n": 1,
+          "correct": 1
+        },
+        "boat": {
+          "n": 2,
+          "correct": 0
+        },
+        "cell phone": {
+          "n": 2,
+          "correct": 0
+        },
+        "backpack": {
+          "n": 3,
+          "correct": 0
+        },
+        "handbag": {
+          "n": 3,
+          "correct": 1
+        },
+        "cat": {
+          "n": 1,
+          "correct": 1
+        },
+        "keyboard": {
+          "n": 2,
+          "correct": 2
+        },
+        "airplane": {
+          "n": 2,
+          "correct": 2
+        },
+        "bus": {
+          "n": 4,
+          "correct": 3
+        },
+        "train": {
+          "n": 1,
+          "correct": 0
+        },
+        "stop sign": {
+          "n": 2,
+          "correct": 1
+        },
+        "truck": {
+          "n": 1,
+          "correct": 0
+        },
+        "sports ball": {
+          "n": 1,
+          "correct": 0
+        },
+        "baseball glove": {
+          "n": 1,
+          "correct": 0
+        },
+        "sandwich": {
+          "n": 1,
+          "correct": 1
+        },
+        "bowl": {
+          "n": 2,
+          "correct": 0
+        },
+        "bed": {
+          "n": 3,
+          "correct": 1
+        },
+        "book": {
+          "n": 2,
+          "correct": 0
+        },
+        "clock": {
+          "n": 1,
+          "correct": 0
+        },
+        "oven": {
+          "n": 1,
+          "correct": 0
+        },
+        "car": {
+          "n": 7,
+          "correct": 2
+        },
+        "tennis racket": {
+          "n": 2,
+          "correct": 2
+        },
+        "skis": {
+          "n": 1,
+          "correct": 1
+        },
+        "bear": {
+          "n": 1,
+          "correct": 1
+        },
+        "zebra": {
+          "n": 2,
+          "correct": 2
+        },
+        "apple": {
+          "n": 1,
+          "correct": 1
+        },
+        "laptop": {
+          "n": 1,
+          "correct": 1
+        },
+        "mouse": {
+          "n": 1,
+          "correct": 0
+        },
+        "teddy bear": {
+          "n": 3,
+          "correct": 3
+        }
+      },
+      "per_scene": [
+        {
+          "scene_id": "139",
+          "n": 10,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.1,
+          "abstention_rate": 0.9,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.1,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1268",
+          "n": 10,
+          "accepted": 4,
+          "correct": 3,
+          "wrong": 1,
+          "accuracy": 0.3,
+          "abstention_rate": 0.6,
+          "wrong_target_risk": 0.25,
+          "wrong_per_candidate": 0.1,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.2,
+          "delta": 0.09999999999999998
+        },
+        {
+          "scene_id": "1675",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1761",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "2006",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1353",
+          "n": 7,
+          "accepted": 6,
+          "correct": 6,
+          "wrong": 0,
+          "accuracy": 0.8571428571428571,
+          "abstention_rate": 0.1428571428571429,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.8571428571428571
+        },
+        {
+          "scene_id": "724",
+          "n": 3,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.3333333333333333,
+          "abstention_rate": 0.6666666666666667,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.3333333333333333,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "872",
+          "n": 4,
+          "accepted": 1,
+          "correct": 0,
+          "wrong": 1,
+          "accuracy": 0.0,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 1.0,
+          "wrong_per_candidate": 0.25,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1425",
+          "n": 2,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.5,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.5
+        },
+        {
+          "scene_id": "632",
+          "n": 6,
+          "accepted": 3,
+          "correct": 3,
+          "wrong": 0,
+          "accuracy": 0.5,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1993",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1296",
+          "n": 4,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "802",
+          "n": 2,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.5,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1532",
+          "n": 7,
+          "accepted": 3,
+          "correct": 2,
+          "wrong": 1,
+          "accuracy": 0.2857142857142857,
+          "abstention_rate": 0.5714285714285714,
+          "wrong_target_risk": 0.3333333333333333,
+          "wrong_per_candidate": 0.14285714285714285,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.14285714285714285,
+          "delta": 0.14285714285714285
+        },
+        {
+          "scene_id": "1584",
+          "n": 10,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 0.2,
+          "abstention_rate": 0.8,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.2,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "885",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "785",
+          "n": 2,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.5,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.5,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.5
+        },
+        {
+          "scene_id": "1490",
+          "n": 1,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "285",
+          "n": 1,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1818",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1000",
+          "n": 17,
+          "accepted": 10,
+          "correct": 1,
+          "wrong": 9,
+          "accuracy": 0.058823529411764705,
+          "abstention_rate": 0.4117647058823529,
+          "wrong_target_risk": 0.9,
+          "wrong_per_candidate": 0.5294117647058824,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.058823529411764705,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "2149",
+          "n": 2,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.5,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.5,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1503",
+          "n": 4,
+          "accepted": 3,
+          "correct": 2,
+          "wrong": 1,
+          "accuracy": 0.5,
+          "abstention_rate": 0.25,
+          "wrong_target_risk": 0.3333333333333333,
+          "wrong_per_candidate": 0.25,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.25
+        },
+        {
+          "scene_id": "776",
+          "n": 4,
+          "accepted": 4,
+          "correct": 3,
+          "wrong": 1,
+          "accuracy": 0.75,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.25,
+          "wrong_per_candidate": 0.25,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.75,
+          "delta": 0.0
+        }
+      ]
+    },
+    "misleading": {
+      "n": 114,
+      "accepted": 35,
+      "correct": 27,
+      "wrong": 8,
+      "accuracy": 0.23684210526315788,
+      "abstention_rate": 0.6929824561403508,
+      "wrong_target_risk": 0.22857142857142856,
+      "wrong_per_candidate": 0.07017543859649122,
+      "relation_precision": null,
+      "relation_recall": null,
+      "coverage": 0.30701754385964913,
+      "scene_mean_accuracy": 0.34520891690009337,
+      "paired_scene_mean_delta": 0.0,
+      "paired_scene_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "class_balanced_accuracy": 0.37202380952380953,
+      "transitions": {
+        "correct_to_wrong": 0,
+        "wrong_to_correct": 0,
+        "accepted_to_abstained": 0,
+        "abstained_to_accepted": 0,
+        "category_changes": 0
+      },
+      "category_change_rate": 0.0,
+      "per_class": {
+        "potted plant": {
+          "n": 3,
+          "correct": 2
+        },
+        "tv": {
+          "n": 3,
+          "correct": 0
+        },
+        "chair": {
+          "n": 6,
+          "correct": 1
+        },
+        "person": {
+          "n": 42,
+          "correct": 0
+        },
+        "refrigerator": {
+          "n": 2,
+          "correct": 1
+        },
+        "vase": {
+          "n": 1,
+          "correct": 0
+        },
+        "dining table": {
+          "n": 2,
+          "correct": 1
+        },
+        "bird": {
+          "n": 1,
+          "correct": 1
+        },
+        "boat": {
+          "n": 2,
+          "correct": 0
+        },
+        "cell phone": {
+          "n": 2,
+          "correct": 0
+        },
+        "backpack": {
+          "n": 3,
+          "correct": 0
+        },
+        "handbag": {
+          "n": 3,
+          "correct": 1
+        },
+        "cat": {
+          "n": 1,
+          "correct": 1
+        },
+        "keyboard": {
+          "n": 2,
+          "correct": 1
+        },
+        "airplane": {
+          "n": 2,
+          "correct": 2
+        },
+        "bus": {
+          "n": 4,
+          "correct": 3
+        },
+        "train": {
+          "n": 1,
+          "correct": 0
+        },
+        "stop sign": {
+          "n": 2,
+          "correct": 1
+        },
+        "truck": {
+          "n": 1,
+          "correct": 0
+        },
+        "sports ball": {
+          "n": 1,
+          "correct": 0
+        },
+        "baseball glove": {
+          "n": 1,
+          "correct": 0
+        },
+        "sandwich": {
+          "n": 1,
+          "correct": 0
+        },
+        "bowl": {
+          "n": 2,
+          "correct": 0
+        },
+        "bed": {
+          "n": 3,
+          "correct": 1
+        },
+        "book": {
+          "n": 2,
+          "correct": 0
+        },
+        "clock": {
+          "n": 1,
+          "correct": 0
+        },
+        "oven": {
+          "n": 1,
+          "correct": 0
+        },
+        "car": {
+          "n": 7,
+          "correct": 1
+        },
+        "tennis racket": {
+          "n": 2,
+          "correct": 2
+        },
+        "skis": {
+          "n": 1,
+          "correct": 0
+        },
+        "bear": {
+          "n": 1,
+          "correct": 1
+        },
+        "zebra": {
+          "n": 2,
+          "correct": 2
+        },
+        "apple": {
+          "n": 1,
+          "correct": 1
+        },
+        "laptop": {
+          "n": 1,
+          "correct": 1
+        },
+        "mouse": {
+          "n": 1,
+          "correct": 0
+        },
+        "teddy bear": {
+          "n": 3,
+          "correct": 3
+        }
+      },
+      "per_scene": [
+        {
+          "scene_id": "139",
+          "n": 10,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.1,
+          "abstention_rate": 0.9,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.1,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1268",
+          "n": 10,
+          "accepted": 3,
+          "correct": 2,
+          "wrong": 1,
+          "accuracy": 0.2,
+          "abstention_rate": 0.7,
+          "wrong_target_risk": 0.3333333333333333,
+          "wrong_per_candidate": 0.1,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.2,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1675",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1761",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "2006",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1353",
+          "n": 7,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "724",
+          "n": 3,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.3333333333333333,
+          "abstention_rate": 0.6666666666666667,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.3333333333333333,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "872",
+          "n": 4,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1425",
+          "n": 2,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "632",
+          "n": 6,
+          "accepted": 3,
+          "correct": 3,
+          "wrong": 0,
+          "accuracy": 0.5,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1993",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1296",
+          "n": 4,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "802",
+          "n": 2,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.5,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1532",
+          "n": 7,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.14285714285714285,
+          "abstention_rate": 0.7142857142857143,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.14285714285714285,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.14285714285714285,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1584",
+          "n": 10,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 0.2,
+          "abstention_rate": 0.8,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.2,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "885",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "785",
+          "n": 2,
+          "accepted": 1,
+          "correct": 0,
+          "wrong": 1,
+          "accuracy": 0.0,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 1.0,
+          "wrong_per_candidate": 0.5,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1490",
+          "n": 1,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "285",
+          "n": 1,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1818",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1000",
+          "n": 17,
+          "accepted": 3,
+          "correct": 1,
+          "wrong": 2,
+          "accuracy": 0.058823529411764705,
+          "abstention_rate": 0.8235294117647058,
+          "wrong_target_risk": 0.6666666666666666,
+          "wrong_per_candidate": 0.11764705882352941,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.058823529411764705,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "2149",
+          "n": 2,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.5,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.5,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1503",
+          "n": 4,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.25,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.25,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "776",
+          "n": 4,
+          "accepted": 4,
+          "correct": 3,
+          "wrong": 1,
+          "accuracy": 0.75,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.25,
+          "wrong_per_candidate": 0.25,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.75,
+          "delta": 0.0
+        }
+      ]
+    }
+  },
+  "contextual_text": {
+    "none": {
+      "n": 114,
+      "accepted": 35,
+      "correct": 27,
+      "wrong": 8,
+      "accuracy": 0.23684210526315788,
+      "abstention_rate": 0.6929824561403508,
+      "wrong_target_risk": 0.22857142857142856,
+      "wrong_per_candidate": 0.07017543859649122,
+      "relation_precision": null,
+      "relation_recall": null,
+      "coverage": 0.30701754385964913,
+      "scene_mean_accuracy": 0.34520891690009337,
+      "paired_scene_mean_delta": 0.0,
+      "paired_scene_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "class_balanced_accuracy": 0.37202380952380953,
+      "transitions": {
+        "correct_to_wrong": 0,
+        "wrong_to_correct": 0,
+        "accepted_to_abstained": 0,
+        "abstained_to_accepted": 0,
+        "category_changes": 0
+      },
+      "category_change_rate": 0.0,
+      "per_class": {
+        "potted plant": {
+          "n": 3,
+          "correct": 2
+        },
+        "tv": {
+          "n": 3,
+          "correct": 0
+        },
+        "chair": {
+          "n": 6,
+          "correct": 1
+        },
+        "person": {
+          "n": 42,
+          "correct": 0
+        },
+        "refrigerator": {
+          "n": 2,
+          "correct": 1
+        },
+        "vase": {
+          "n": 1,
+          "correct": 0
+        },
+        "dining table": {
+          "n": 2,
+          "correct": 1
+        },
+        "bird": {
+          "n": 1,
+          "correct": 1
+        },
+        "boat": {
+          "n": 2,
+          "correct": 0
+        },
+        "cell phone": {
+          "n": 2,
+          "correct": 0
+        },
+        "backpack": {
+          "n": 3,
+          "correct": 0
+        },
+        "handbag": {
+          "n": 3,
+          "correct": 1
+        },
+        "cat": {
+          "n": 1,
+          "correct": 1
+        },
+        "keyboard": {
+          "n": 2,
+          "correct": 1
+        },
+        "airplane": {
+          "n": 2,
+          "correct": 2
+        },
+        "bus": {
+          "n": 4,
+          "correct": 3
+        },
+        "train": {
+          "n": 1,
+          "correct": 0
+        },
+        "stop sign": {
+          "n": 2,
+          "correct": 1
+        },
+        "truck": {
+          "n": 1,
+          "correct": 0
+        },
+        "sports ball": {
+          "n": 1,
+          "correct": 0
+        },
+        "baseball glove": {
+          "n": 1,
+          "correct": 0
+        },
+        "sandwich": {
+          "n": 1,
+          "correct": 0
+        },
+        "bowl": {
+          "n": 2,
+          "correct": 0
+        },
+        "bed": {
+          "n": 3,
+          "correct": 1
+        },
+        "book": {
+          "n": 2,
+          "correct": 0
+        },
+        "clock": {
+          "n": 1,
+          "correct": 0
+        },
+        "oven": {
+          "n": 1,
+          "correct": 0
+        },
+        "car": {
+          "n": 7,
+          "correct": 1
+        },
+        "tennis racket": {
+          "n": 2,
+          "correct": 2
+        },
+        "skis": {
+          "n": 1,
+          "correct": 0
+        },
+        "bear": {
+          "n": 1,
+          "correct": 1
+        },
+        "zebra": {
+          "n": 2,
+          "correct": 2
+        },
+        "apple": {
+          "n": 1,
+          "correct": 1
+        },
+        "laptop": {
+          "n": 1,
+          "correct": 1
+        },
+        "mouse": {
+          "n": 1,
+          "correct": 0
+        },
+        "teddy bear": {
+          "n": 3,
+          "correct": 3
+        }
+      },
+      "per_scene": [
+        {
+          "scene_id": "139",
+          "n": 10,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.1,
+          "abstention_rate": 0.9,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.1,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1268",
+          "n": 10,
+          "accepted": 3,
+          "correct": 2,
+          "wrong": 1,
+          "accuracy": 0.2,
+          "abstention_rate": 0.7,
+          "wrong_target_risk": 0.3333333333333333,
+          "wrong_per_candidate": 0.1,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.2,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1675",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1761",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "2006",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1353",
+          "n": 7,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "724",
+          "n": 3,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.3333333333333333,
+          "abstention_rate": 0.6666666666666667,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.3333333333333333,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "872",
+          "n": 4,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1425",
+          "n": 2,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "632",
+          "n": 6,
+          "accepted": 3,
+          "correct": 3,
+          "wrong": 0,
+          "accuracy": 0.5,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1993",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1296",
+          "n": 4,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "802",
+          "n": 2,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.5,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1532",
+          "n": 7,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.14285714285714285,
+          "abstention_rate": 0.7142857142857143,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.14285714285714285,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.14285714285714285,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1584",
+          "n": 10,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 0.2,
+          "abstention_rate": 0.8,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.2,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "885",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "785",
+          "n": 2,
+          "accepted": 1,
+          "correct": 0,
+          "wrong": 1,
+          "accuracy": 0.0,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 1.0,
+          "wrong_per_candidate": 0.5,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1490",
+          "n": 1,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "285",
+          "n": 1,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1818",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1000",
+          "n": 17,
+          "accepted": 3,
+          "correct": 1,
+          "wrong": 2,
+          "accuracy": 0.058823529411764705,
+          "abstention_rate": 0.8235294117647058,
+          "wrong_target_risk": 0.6666666666666666,
+          "wrong_per_candidate": 0.11764705882352941,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.058823529411764705,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "2149",
+          "n": 2,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.5,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.5,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1503",
+          "n": 4,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.25,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.25,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "776",
+          "n": 4,
+          "accepted": 4,
+          "correct": 3,
+          "wrong": 1,
+          "accuracy": 0.75,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.25,
+          "wrong_per_candidate": 0.25,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.75,
+          "delta": 0.0
+        }
+      ]
+    },
+    "general": {
+      "n": 114,
+      "accepted": 35,
+      "correct": 28,
+      "wrong": 7,
+      "accuracy": 0.24561403508771928,
+      "abstention_rate": 0.6929824561403508,
+      "wrong_target_risk": 0.2,
+      "wrong_per_candidate": 0.06140350877192982,
+      "relation_precision": null,
+      "relation_recall": null,
+      "coverage": 0.30701754385964913,
+      "scene_mean_accuracy": 0.34937558356676,
+      "paired_scene_mean_delta": 0.004166666666666666,
+      "paired_scene_bootstrap_95ci": [
+        0.0,
+        0.012499999999999997
+      ],
+      "class_balanced_accuracy": 0.37268518518518523,
+      "transitions": {
+        "correct_to_wrong": 0,
+        "wrong_to_correct": 0,
+        "accepted_to_abstained": 1,
+        "abstained_to_accepted": 1,
+        "category_changes": 2
+      },
+      "category_change_rate": 0.017543859649122806,
+      "per_class": {
+        "potted plant": {
+          "n": 3,
+          "correct": 2
+        },
+        "tv": {
+          "n": 3,
+          "correct": 0
+        },
+        "chair": {
+          "n": 6,
+          "correct": 1
+        },
+        "person": {
+          "n": 42,
+          "correct": 1
+        },
+        "refrigerator": {
+          "n": 2,
+          "correct": 1
+        },
+        "vase": {
+          "n": 1,
+          "correct": 0
+        },
+        "dining table": {
+          "n": 2,
+          "correct": 1
+        },
+        "bird": {
+          "n": 1,
+          "correct": 1
+        },
+        "boat": {
+          "n": 2,
+          "correct": 0
+        },
+        "cell phone": {
+          "n": 2,
+          "correct": 0
+        },
+        "backpack": {
+          "n": 3,
+          "correct": 0
+        },
+        "handbag": {
+          "n": 3,
+          "correct": 1
+        },
+        "cat": {
+          "n": 1,
+          "correct": 1
+        },
+        "keyboard": {
+          "n": 2,
+          "correct": 1
+        },
+        "airplane": {
+          "n": 2,
+          "correct": 2
+        },
+        "bus": {
+          "n": 4,
+          "correct": 3
+        },
+        "train": {
+          "n": 1,
+          "correct": 0
+        },
+        "stop sign": {
+          "n": 2,
+          "correct": 1
+        },
+        "truck": {
+          "n": 1,
+          "correct": 0
+        },
+        "sports ball": {
+          "n": 1,
+          "correct": 0
+        },
+        "baseball glove": {
+          "n": 1,
+          "correct": 0
+        },
+        "sandwich": {
+          "n": 1,
+          "correct": 0
+        },
+        "bowl": {
+          "n": 2,
+          "correct": 0
+        },
+        "bed": {
+          "n": 3,
+          "correct": 1
+        },
+        "book": {
+          "n": 2,
+          "correct": 0
+        },
+        "clock": {
+          "n": 1,
+          "correct": 0
+        },
+        "oven": {
+          "n": 1,
+          "correct": 0
+        },
+        "car": {
+          "n": 7,
+          "correct": 1
+        },
+        "tennis racket": {
+          "n": 2,
+          "correct": 2
+        },
+        "skis": {
+          "n": 1,
+          "correct": 0
+        },
+        "bear": {
+          "n": 1,
+          "correct": 1
+        },
+        "zebra": {
+          "n": 2,
+          "correct": 2
+        },
+        "apple": {
+          "n": 1,
+          "correct": 1
+        },
+        "laptop": {
+          "n": 1,
+          "correct": 1
+        },
+        "mouse": {
+          "n": 1,
+          "correct": 0
+        },
+        "teddy bear": {
+          "n": 3,
+          "correct": 3
+        }
+      },
+      "per_scene": [
+        {
+          "scene_id": "139",
+          "n": 10,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.1,
+          "abstention_rate": 0.9,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.1,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1268",
+          "n": 10,
+          "accepted": 4,
+          "correct": 3,
+          "wrong": 1,
+          "accuracy": 0.3,
+          "abstention_rate": 0.6,
+          "wrong_target_risk": 0.25,
+          "wrong_per_candidate": 0.1,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.2,
+          "delta": 0.09999999999999998
+        },
+        {
+          "scene_id": "1675",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1761",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "2006",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1353",
+          "n": 7,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "724",
+          "n": 3,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.3333333333333333,
+          "abstention_rate": 0.6666666666666667,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.3333333333333333,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "872",
+          "n": 4,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1425",
+          "n": 2,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "632",
+          "n": 6,
+          "accepted": 3,
+          "correct": 3,
+          "wrong": 0,
+          "accuracy": 0.5,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1993",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1296",
+          "n": 4,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "802",
+          "n": 2,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.5,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1532",
+          "n": 7,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.14285714285714285,
+          "abstention_rate": 0.7142857142857143,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.14285714285714285,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.14285714285714285,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1584",
+          "n": 10,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 0.2,
+          "abstention_rate": 0.8,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.2,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "885",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "785",
+          "n": 2,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1490",
+          "n": 1,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "285",
+          "n": 1,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1818",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1000",
+          "n": 17,
+          "accepted": 3,
+          "correct": 1,
+          "wrong": 2,
+          "accuracy": 0.058823529411764705,
+          "abstention_rate": 0.8235294117647058,
+          "wrong_target_risk": 0.6666666666666666,
+          "wrong_per_candidate": 0.11764705882352941,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.058823529411764705,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "2149",
+          "n": 2,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.5,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.5,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1503",
+          "n": 4,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.25,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.25,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "776",
+          "n": 4,
+          "accepted": 4,
+          "correct": 3,
+          "wrong": 1,
+          "accuracy": 0.75,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.25,
+          "wrong_per_candidate": 0.25,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.75,
+          "delta": 0.0
+        }
+      ]
+    },
+    "detailed": {
+      "n": 114,
+      "accepted": 32,
+      "correct": 26,
+      "wrong": 6,
+      "accuracy": 0.22807017543859648,
+      "abstention_rate": 0.7192982456140351,
+      "wrong_target_risk": 0.1875,
+      "wrong_per_candidate": 0.05263157894736842,
+      "relation_precision": null,
+      "relation_recall": null,
+      "coverage": 0.2807017543859649,
+      "scene_mean_accuracy": 0.3392565359477124,
+      "paired_scene_mean_delta": -0.005952380952380952,
+      "paired_scene_bootstrap_95ci": [
+        -0.017857142857142856,
+        0.0
+      ],
+      "class_balanced_accuracy": 0.3680555555555556,
+      "transitions": {
+        "correct_to_wrong": 0,
+        "wrong_to_correct": 0,
+        "accepted_to_abstained": 3,
+        "abstained_to_accepted": 0,
+        "category_changes": 3
+      },
+      "category_change_rate": 0.02631578947368421,
+      "per_class": {
+        "potted plant": {
+          "n": 3,
+          "correct": 2
+        },
+        "tv": {
+          "n": 3,
+          "correct": 0
+        },
+        "chair": {
+          "n": 6,
+          "correct": 1
+        },
+        "person": {
+          "n": 42,
+          "correct": 0
+        },
+        "refrigerator": {
+          "n": 2,
+          "correct": 1
+        },
+        "vase": {
+          "n": 1,
+          "correct": 0
+        },
+        "dining table": {
+          "n": 2,
+          "correct": 1
+        },
+        "bird": {
+          "n": 1,
+          "correct": 1
+        },
+        "boat": {
+          "n": 2,
+          "correct": 0
+        },
+        "cell phone": {
+          "n": 2,
+          "correct": 0
+        },
+        "backpack": {
+          "n": 3,
+          "correct": 0
+        },
+        "handbag": {
+          "n": 3,
+          "correct": 1
+        },
+        "cat": {
+          "n": 1,
+          "correct": 1
+        },
+        "keyboard": {
+          "n": 2,
+          "correct": 1
+        },
+        "airplane": {
+          "n": 2,
+          "correct": 2
+        },
+        "bus": {
+          "n": 4,
+          "correct": 3
+        },
+        "train": {
+          "n": 1,
+          "correct": 0
+        },
+        "stop sign": {
+          "n": 2,
+          "correct": 1
+        },
+        "truck": {
+          "n": 1,
+          "correct": 0
+        },
+        "sports ball": {
+          "n": 1,
+          "correct": 0
+        },
+        "baseball glove": {
+          "n": 1,
+          "correct": 0
+        },
+        "sandwich": {
+          "n": 1,
+          "correct": 0
+        },
+        "bowl": {
+          "n": 2,
+          "correct": 0
+        },
+        "bed": {
+          "n": 3,
+          "correct": 1
+        },
+        "book": {
+          "n": 2,
+          "correct": 0
+        },
+        "clock": {
+          "n": 1,
+          "correct": 0
+        },
+        "oven": {
+          "n": 1,
+          "correct": 0
+        },
+        "car": {
+          "n": 7,
+          "correct": 0
+        },
+        "tennis racket": {
+          "n": 2,
+          "correct": 2
+        },
+        "skis": {
+          "n": 1,
+          "correct": 0
+        },
+        "bear": {
+          "n": 1,
+          "correct": 1
+        },
+        "zebra": {
+          "n": 2,
+          "correct": 2
+        },
+        "apple": {
+          "n": 1,
+          "correct": 1
+        },
+        "laptop": {
+          "n": 1,
+          "correct": 1
+        },
+        "mouse": {
+          "n": 1,
+          "correct": 0
+        },
+        "teddy bear": {
+          "n": 3,
+          "correct": 3
+        }
+      },
+      "per_scene": [
+        {
+          "scene_id": "139",
+          "n": 10,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.1,
+          "abstention_rate": 0.9,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.1,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1268",
+          "n": 10,
+          "accepted": 3,
+          "correct": 2,
+          "wrong": 1,
+          "accuracy": 0.2,
+          "abstention_rate": 0.7,
+          "wrong_target_risk": 0.3333333333333333,
+          "wrong_per_candidate": 0.1,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.2,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1675",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1761",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "2006",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1353",
+          "n": 7,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "724",
+          "n": 3,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.3333333333333333,
+          "abstention_rate": 0.6666666666666667,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.3333333333333333,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "872",
+          "n": 4,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1425",
+          "n": 2,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "632",
+          "n": 6,
+          "accepted": 3,
+          "correct": 3,
+          "wrong": 0,
+          "accuracy": 0.5,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1993",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1296",
+          "n": 4,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "802",
+          "n": 2,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.5,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1532",
+          "n": 7,
+          "accepted": 1,
+          "correct": 0,
+          "wrong": 1,
+          "accuracy": 0.0,
+          "abstention_rate": 0.8571428571428572,
+          "wrong_target_risk": 1.0,
+          "wrong_per_candidate": 0.14285714285714285,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.14285714285714285,
+          "delta": -0.14285714285714285
+        },
+        {
+          "scene_id": "1584",
+          "n": 10,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 0.2,
+          "abstention_rate": 0.8,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.2,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "885",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "785",
+          "n": 2,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1490",
+          "n": 1,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "285",
+          "n": 1,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1818",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1000",
+          "n": 17,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.058823529411764705,
+          "abstention_rate": 0.8823529411764706,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.058823529411764705,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.058823529411764705,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "2149",
+          "n": 2,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.5,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.5,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1503",
+          "n": 4,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.25,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.25,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "776",
+          "n": 4,
+          "accepted": 4,
+          "correct": 3,
+          "wrong": 1,
+          "accuracy": 0.75,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.25,
+          "wrong_per_candidate": 0.25,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.75,
+          "delta": 0.0
+        }
+      ]
+    },
+    "misleading": {
+      "n": 114,
+      "accepted": 34,
+      "correct": 27,
+      "wrong": 7,
+      "accuracy": 0.23684210526315788,
+      "abstention_rate": 0.7017543859649122,
+      "wrong_target_risk": 0.20588235294117646,
+      "wrong_per_candidate": 0.06140350877192982,
+      "relation_precision": null,
+      "relation_recall": null,
+      "coverage": 0.2982456140350877,
+      "scene_mean_accuracy": 0.34520891690009337,
+      "paired_scene_mean_delta": 0.0,
+      "paired_scene_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "class_balanced_accuracy": 0.37202380952380953,
+      "transitions": {
+        "correct_to_wrong": 0,
+        "wrong_to_correct": 0,
+        "accepted_to_abstained": 1,
+        "abstained_to_accepted": 0,
+        "category_changes": 1
+      },
+      "category_change_rate": 0.008771929824561403,
+      "per_class": {
+        "potted plant": {
+          "n": 3,
+          "correct": 2
+        },
+        "tv": {
+          "n": 3,
+          "correct": 0
+        },
+        "chair": {
+          "n": 6,
+          "correct": 1
+        },
+        "person": {
+          "n": 42,
+          "correct": 0
+        },
+        "refrigerator": {
+          "n": 2,
+          "correct": 1
+        },
+        "vase": {
+          "n": 1,
+          "correct": 0
+        },
+        "dining table": {
+          "n": 2,
+          "correct": 1
+        },
+        "bird": {
+          "n": 1,
+          "correct": 1
+        },
+        "boat": {
+          "n": 2,
+          "correct": 0
+        },
+        "cell phone": {
+          "n": 2,
+          "correct": 0
+        },
+        "backpack": {
+          "n": 3,
+          "correct": 0
+        },
+        "handbag": {
+          "n": 3,
+          "correct": 1
+        },
+        "cat": {
+          "n": 1,
+          "correct": 1
+        },
+        "keyboard": {
+          "n": 2,
+          "correct": 1
+        },
+        "airplane": {
+          "n": 2,
+          "correct": 2
+        },
+        "bus": {
+          "n": 4,
+          "correct": 3
+        },
+        "train": {
+          "n": 1,
+          "correct": 0
+        },
+        "stop sign": {
+          "n": 2,
+          "correct": 1
+        },
+        "truck": {
+          "n": 1,
+          "correct": 0
+        },
+        "sports ball": {
+          "n": 1,
+          "correct": 0
+        },
+        "baseball glove": {
+          "n": 1,
+          "correct": 0
+        },
+        "sandwich": {
+          "n": 1,
+          "correct": 0
+        },
+        "bowl": {
+          "n": 2,
+          "correct": 0
+        },
+        "bed": {
+          "n": 3,
+          "correct": 1
+        },
+        "book": {
+          "n": 2,
+          "correct": 0
+        },
+        "clock": {
+          "n": 1,
+          "correct": 0
+        },
+        "oven": {
+          "n": 1,
+          "correct": 0
+        },
+        "car": {
+          "n": 7,
+          "correct": 1
+        },
+        "tennis racket": {
+          "n": 2,
+          "correct": 2
+        },
+        "skis": {
+          "n": 1,
+          "correct": 0
+        },
+        "bear": {
+          "n": 1,
+          "correct": 1
+        },
+        "zebra": {
+          "n": 2,
+          "correct": 2
+        },
+        "apple": {
+          "n": 1,
+          "correct": 1
+        },
+        "laptop": {
+          "n": 1,
+          "correct": 1
+        },
+        "mouse": {
+          "n": 1,
+          "correct": 0
+        },
+        "teddy bear": {
+          "n": 3,
+          "correct": 3
+        }
+      },
+      "per_scene": [
+        {
+          "scene_id": "139",
+          "n": 10,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.1,
+          "abstention_rate": 0.9,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.1,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1268",
+          "n": 10,
+          "accepted": 3,
+          "correct": 2,
+          "wrong": 1,
+          "accuracy": 0.2,
+          "abstention_rate": 0.7,
+          "wrong_target_risk": 0.3333333333333333,
+          "wrong_per_candidate": 0.1,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.2,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1675",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1761",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "2006",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1353",
+          "n": 7,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "724",
+          "n": 3,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.3333333333333333,
+          "abstention_rate": 0.6666666666666667,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.3333333333333333,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "872",
+          "n": 4,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1425",
+          "n": 2,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "632",
+          "n": 6,
+          "accepted": 3,
+          "correct": 3,
+          "wrong": 0,
+          "accuracy": 0.5,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1993",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1296",
+          "n": 4,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "802",
+          "n": 2,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.5,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1532",
+          "n": 7,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.14285714285714285,
+          "abstention_rate": 0.7142857142857143,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.14285714285714285,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.14285714285714285,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1584",
+          "n": 10,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 0.2,
+          "abstention_rate": 0.8,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.2,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "885",
+          "n": 4,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 0.25,
+          "abstention_rate": 0.75,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "785",
+          "n": 2,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1490",
+          "n": 1,
+          "accepted": 0,
+          "correct": 0,
+          "wrong": 0,
+          "accuracy": 0.0,
+          "abstention_rate": 1.0,
+          "wrong_target_risk": null,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "285",
+          "n": 1,
+          "accepted": 1,
+          "correct": 1,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1818",
+          "n": 2,
+          "accepted": 2,
+          "correct": 2,
+          "wrong": 0,
+          "accuracy": 1.0,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.0,
+          "wrong_per_candidate": 0.0,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 1.0,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1000",
+          "n": 17,
+          "accepted": 3,
+          "correct": 1,
+          "wrong": 2,
+          "accuracy": 0.058823529411764705,
+          "abstention_rate": 0.8235294117647058,
+          "wrong_target_risk": 0.6666666666666666,
+          "wrong_per_candidate": 0.11764705882352941,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.058823529411764705,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "2149",
+          "n": 2,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.5,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.5,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.5,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "1503",
+          "n": 4,
+          "accepted": 2,
+          "correct": 1,
+          "wrong": 1,
+          "accuracy": 0.25,
+          "abstention_rate": 0.5,
+          "wrong_target_risk": 0.5,
+          "wrong_per_candidate": 0.25,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.25,
+          "delta": 0.0
+        },
+        {
+          "scene_id": "776",
+          "n": 4,
+          "accepted": 4,
+          "correct": 3,
+          "wrong": 1,
+          "accuracy": 0.75,
+          "abstention_rate": 0.0,
+          "wrong_target_risk": 0.25,
+          "wrong_per_candidate": 0.25,
+          "relation_precision": null,
+          "relation_recall": null,
+          "baseline_accuracy": 0.75,
+          "delta": 0.0
+        }
+      ]
+    }
+  }
+}

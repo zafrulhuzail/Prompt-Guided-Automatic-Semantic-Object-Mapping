@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-26",
+  "real_visual_experiments_executed": false,
+  "reason": "Dataset and model dependencies not retrieved: sandbox proxy connection failed; additional-network attempt interrupted.",
+  "unit_tests_passed": 7,
+  "fixture_executed": true,
+  "fixture_is_research_evidence": false,
+  "measurable_scene_prompt_benefit": null,
+  "relation_correctness_on_independent_annotations": null
+}

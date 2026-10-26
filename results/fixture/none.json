@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "scope": "supplied-region semantic grounding; 2D",
+  "description": "",
+  "nodes": [
+    {
+      "id": "r1",
+      "observation": {
+        "image": "synthetic-not-a-real-image",
+        "bbox": [
+          0,
+          0,
+          20,
+          20
+        ]
+      },
+      "category": "machine",
+      "hypothesis": "machine",
+      "abstained": false,
+      "visual_cosine": 0.35,
+      "score_margin": 0.22999999999999998,
+      "confidence_type": "uncalibrated cosine and margin; not probability",
+      "visual_scores": {
+        "machine": 0.35,
+        "button": 0.12,
+        "chair": 0.1
+      },
+      "context_mentions": []
+    },
+    {
+      "id": "r2",
+      "observation": {
+        "image": "synthetic-not-a-real-image",
+        "bbox": [
+          22,
+          0,
+          5,
+          5
+        ]
+      },
+      "category": null,
+      "hypothesis": "button",
+      "abstained": true,
+      "visual_cosine": 0.23,
+      "score_margin": 0.010000000000000009,
+      "confidence_type": "uncalibrated cosine and margin; not probability",
+      "visual_scores": {
+        "machine": 0.22,
+        "button": 0.23,
+        "chair": 0.1
+      },
+      "context_mentions": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "r1",
+      "target": "r2",
+      "relation": "near",
+      "status": "hypothesis",
+      "evidence": "2d_center_distance",
+      "normalized_distance": 0.11543396380615197,
+      "confidence": null
+    }
+  ],
+  "condition": "none",
+  "synthetic_fixture": true
+}

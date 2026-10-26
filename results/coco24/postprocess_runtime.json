@@ -1,0 +1,17 @@
+{
+  "seconds": {
+    "literal_prior": {
+      "none": 0.010084420999646682,
+      "general": 0.007944889000100375,
+      "detailed": 0.008680510999965918,
+      "misleading": 0.008538525999938429
+    },
+    "contextual_text": {
+      "none": 0.010466076999819052,
+      "general": 0.010783437000100093,
+      "detailed": 0.01044497600014438,
+      "misleading": 0.01036384300005011
+    }
+  },
+  "notes": "Single warm pass, disk and encoder excluded. Actual image sizes from selected metadata; replay graphs discarded."
+}

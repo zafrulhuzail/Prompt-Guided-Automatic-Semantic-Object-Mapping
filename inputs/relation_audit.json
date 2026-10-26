@@ -1,0 +1,140 @@
+{
+  "author": "assistant visual judgment from region-pair contact sheet; not human benchmark ground truth",
+  "timestamp_utc": "2026-10-26T08:44:12.844487+00:00",
+  "model_predictions_consulted": false,
+  "definition": "Apparent adjacency or overlap of observed regions in the photograph; not 3D distance. Ambiguous scale/depth cases unknown.",
+  "pairs": [
+    {
+      "scene_id": "139",
+      "source": "26547",
+      "target": "34646",
+      "near": false
+    },
+    {
+      "scene_id": "632",
+      "source": "315724",
+      "target": "1610466",
+      "near": true
+    },
+    {
+      "scene_id": "724",
+      "source": "268988",
+      "target": "1197746",
+      "near": null
+    },
+    {
+      "scene_id": "776",
+      "source": "1159354",
+      "target": "1161486",
+      "near": true
+    },
+    {
+      "scene_id": "785",
+      "source": "442619",
+      "target": "609541",
+      "near": true
+    },
+    {
+      "scene_id": "802",
+      "source": "332341",
+      "target": "1123710",
+      "near": true
+    },
+    {
+      "scene_id": "872",
+      "source": "301431",
+      "target": "559508",
+      "near": true
+    },
+    {
+      "scene_id": "885",
+      "source": "439117",
+      "target": "514577",
+      "near": false
+    },
+    {
+      "scene_id": "1000",
+      "source": "656686",
+      "target": "1176263",
+      "near": true
+    },
+    {
+      "scene_id": "1268",
+      "source": "42986",
+      "target": "176790",
+      "near": false
+    },
+    {
+      "scene_id": "1296",
+      "source": "324614",
+      "target": "334018",
+      "near": true
+    },
+    {
+      "scene_id": "1353",
+      "source": "170940",
+      "target": "256326",
+      "near": true
+    },
+    {
+      "scene_id": "1425",
+      "source": "308085",
+      "target": "713032",
+      "near": true
+    },
+    {
+      "scene_id": "1503",
+      "source": "1100052",
+      "target": "1105644",
+      "near": true
+    },
+    {
+      "scene_id": "1532",
+      "source": "345091",
+      "target": "351306",
+      "near": false
+    },
+    {
+      "scene_id": "1584",
+      "source": "365622",
+      "target": "512395",
+      "near": true
+    },
+    {
+      "scene_id": "1675",
+      "source": "46386",
+      "target": "1114711",
+      "near": true
+    },
+    {
+      "scene_id": "1761",
+      "source": "159605",
+      "target": "160562",
+      "near": null
+    },
+    {
+      "scene_id": "1818",
+      "source": "589177",
+      "target": "1412189",
+      "near": true
+    },
+    {
+      "scene_id": "1993",
+      "source": "315959",
+      "target": "376624",
+      "near": true
+    },
+    {
+      "scene_id": "2006",
+      "source": "165069",
+      "target": "220340",
+      "near": true
+    },
+    {
+      "scene_id": "2149",
+      "source": "709513",
+      "target": "1047376",
+      "near": true
+    }
+  ]
+}

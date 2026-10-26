@@ -1,0 +1,358 @@
+{
+  "literal_prior": {
+    "none": {
+      "forced_hypothesis_accuracy": 0.5,
+      "matched_coverage": {
+        "k": 35,
+        "correct": 27,
+        "wrong": 8,
+        "wrong_target_risk": 0.22857142857142854,
+        "coverage": 0.30701754385964913
+      },
+      "descriptive_margin_curve": [
+        {
+          "margin": 0,
+          "accepted": 114,
+          "correct": 57,
+          "coverage": 1.0,
+          "accuracy": 0.5,
+          "wrong_target_risk": 0.5
+        },
+        {
+          "margin": 0.01,
+          "accepted": 58,
+          "correct": 40,
+          "coverage": 0.5087719298245614,
+          "accuracy": 0.3508771929824561,
+          "wrong_target_risk": 0.31034482758620685
+        },
+        {
+          "margin": 0.02,
+          "accepted": 35,
+          "correct": 27,
+          "coverage": 0.30701754385964913,
+          "accuracy": 0.23684210526315788,
+          "wrong_target_risk": 0.22857142857142854
+        },
+        {
+          "margin": 0.04,
+          "accepted": 21,
+          "correct": 19,
+          "coverage": 0.18421052631578946,
+          "accuracy": 0.16666666666666666,
+          "wrong_target_risk": 0.09523809523809523
+        }
+      ]
+    },
+    "general": {
+      "forced_hypothesis_accuracy": 0.5,
+      "matched_coverage": {
+        "k": 35,
+        "correct": 27,
+        "wrong": 8,
+        "wrong_target_risk": 0.22857142857142854,
+        "coverage": 0.30701754385964913
+      },
+      "descriptive_margin_curve": [
+        {
+          "margin": 0,
+          "accepted": 114,
+          "correct": 57,
+          "coverage": 1.0,
+          "accuracy": 0.5,
+          "wrong_target_risk": 0.5
+        },
+        {
+          "margin": 0.01,
+          "accepted": 58,
+          "correct": 40,
+          "coverage": 0.5087719298245614,
+          "accuracy": 0.3508771929824561,
+          "wrong_target_risk": 0.31034482758620685
+        },
+        {
+          "margin": 0.02,
+          "accepted": 35,
+          "correct": 27,
+          "coverage": 0.30701754385964913,
+          "accuracy": 0.23684210526315788,
+          "wrong_target_risk": 0.22857142857142854
+        },
+        {
+          "margin": 0.04,
+          "accepted": 21,
+          "correct": 19,
+          "coverage": 0.18421052631578946,
+          "accuracy": 0.16666666666666666,
+          "wrong_target_risk": 0.09523809523809523
+        }
+      ]
+    },
+    "detailed": {
+      "forced_hypothesis_accuracy": 0.5175438596491229,
+      "matched_coverage": {
+        "k": 35,
+        "correct": 30,
+        "wrong": 5,
+        "wrong_target_risk": 0.1428571428571429,
+        "coverage": 0.30701754385964913
+      },
+      "descriptive_margin_curve": [
+        {
+          "margin": 0,
+          "accepted": 114,
+          "correct": 59,
+          "coverage": 1.0,
+          "accuracy": 0.5175438596491229,
+          "wrong_target_risk": 0.48245614035087714
+        },
+        {
+          "margin": 0.01,
+          "accepted": 72,
+          "correct": 44,
+          "coverage": 0.631578947368421,
+          "accuracy": 0.38596491228070173,
+          "wrong_target_risk": 0.38888888888888884
+        },
+        {
+          "margin": 0.02,
+          "accepted": 54,
+          "correct": 38,
+          "coverage": 0.47368421052631576,
+          "accuracy": 0.3333333333333333,
+          "wrong_target_risk": 0.2962962962962963
+        },
+        {
+          "margin": 0.04,
+          "accepted": 26,
+          "correct": 21,
+          "coverage": 0.22807017543859648,
+          "accuracy": 0.18421052631578946,
+          "wrong_target_risk": 0.1923076923076923
+        }
+      ]
+    },
+    "misleading": {
+      "forced_hypothesis_accuracy": 0.4649122807017544,
+      "matched_coverage": {
+        "k": 35,
+        "correct": 27,
+        "wrong": 8,
+        "wrong_target_risk": 0.22857142857142854,
+        "coverage": 0.30701754385964913
+      },
+      "descriptive_margin_curve": [
+        {
+          "margin": 0,
+          "accepted": 114,
+          "correct": 53,
+          "coverage": 1.0,
+          "accuracy": 0.4649122807017544,
+          "wrong_target_risk": 0.5350877192982456
+        },
+        {
+          "margin": 0.01,
+          "accepted": 57,
+          "correct": 40,
+          "coverage": 0.5,
+          "accuracy": 0.3508771929824561,
+          "wrong_target_risk": 0.29824561403508776
+        },
+        {
+          "margin": 0.02,
+          "accepted": 35,
+          "correct": 27,
+          "coverage": 0.30701754385964913,
+          "accuracy": 0.23684210526315788,
+          "wrong_target_risk": 0.22857142857142854
+        },
+        {
+          "margin": 0.04,
+          "accepted": 20,
+          "correct": 19,
+          "coverage": 0.17543859649122806,
+          "accuracy": 0.16666666666666666,
+          "wrong_target_risk": 0.050000000000000044
+        }
+      ]
+    }
+  },
+  "contextual_text": {
+    "none": {
+      "forced_hypothesis_accuracy": 0.5,
+      "matched_coverage": {
+        "k": 35,
+        "correct": 27,
+        "wrong": 8,
+        "wrong_target_risk": 0.22857142857142854,
+        "coverage": 0.30701754385964913
+      },
+      "descriptive_margin_curve": [
+        {
+          "margin": 0,
+          "accepted": 114,
+          "correct": 57,
+          "coverage": 1.0,
+          "accuracy": 0.5,
+          "wrong_target_risk": 0.5
+        },
+        {
+          "margin": 0.01,
+          "accepted": 58,
+          "correct": 40,
+          "coverage": 0.5087719298245614,
+          "accuracy": 0.3508771929824561,
+          "wrong_target_risk": 0.31034482758620685
+        },
+        {
+          "margin": 0.02,
+          "accepted": 35,
+          "correct": 27,
+          "coverage": 0.30701754385964913,
+          "accuracy": 0.23684210526315788,
+          "wrong_target_risk": 0.22857142857142854
+        },
+        {
+          "margin": 0.04,
+          "accepted": 21,
+          "correct": 19,
+          "coverage": 0.18421052631578946,
+          "accuracy": 0.16666666666666666,
+          "wrong_target_risk": 0.09523809523809523
+        }
+      ]
+    },
+    "general": {
+      "forced_hypothesis_accuracy": 0.5087719298245614,
+      "matched_coverage": {
+        "k": 35,
+        "correct": 28,
+        "wrong": 7,
+        "wrong_target_risk": 0.19999999999999996,
+        "coverage": 0.30701754385964913
+      },
+      "descriptive_margin_curve": [
+        {
+          "margin": 0,
+          "accepted": 114,
+          "correct": 58,
+          "coverage": 1.0,
+          "accuracy": 0.5087719298245614,
+          "wrong_target_risk": 0.49122807017543857
+        },
+        {
+          "margin": 0.01,
+          "accepted": 51,
+          "correct": 36,
+          "coverage": 0.4473684210526316,
+          "accuracy": 0.3157894736842105,
+          "wrong_target_risk": 0.2941176470588235
+        },
+        {
+          "margin": 0.02,
+          "accepted": 35,
+          "correct": 28,
+          "coverage": 0.30701754385964913,
+          "accuracy": 0.24561403508771928,
+          "wrong_target_risk": 0.19999999999999996
+        },
+        {
+          "margin": 0.04,
+          "accepted": 15,
+          "correct": 14,
+          "coverage": 0.13157894736842105,
+          "accuracy": 0.12280701754385964,
+          "wrong_target_risk": 0.06666666666666665
+        }
+      ]
+    },
+    "detailed": {
+      "forced_hypothesis_accuracy": 0.5,
+      "matched_coverage": {
+        "k": 35,
+        "correct": 29,
+        "wrong": 6,
+        "wrong_target_risk": 0.17142857142857137,
+        "coverage": 0.30701754385964913
+      },
+      "descriptive_margin_curve": [
+        {
+          "margin": 0,
+          "accepted": 114,
+          "correct": 57,
+          "coverage": 1.0,
+          "accuracy": 0.5,
+          "wrong_target_risk": 0.5
+        },
+        {
+          "margin": 0.01,
+          "accepted": 50,
+          "correct": 37,
+          "coverage": 0.43859649122807015,
+          "accuracy": 0.32456140350877194,
+          "wrong_target_risk": 0.26
+        },
+        {
+          "margin": 0.02,
+          "accepted": 32,
+          "correct": 26,
+          "coverage": 0.2807017543859649,
+          "accuracy": 0.22807017543859648,
+          "wrong_target_risk": 0.1875
+        },
+        {
+          "margin": 0.04,
+          "accepted": 12,
+          "correct": 12,
+          "coverage": 0.10526315789473684,
+          "accuracy": 0.10526315789473684,
+          "wrong_target_risk": 0.0
+        }
+      ]
+    },
+    "misleading": {
+      "forced_hypothesis_accuracy": 0.47368421052631576,
+      "matched_coverage": {
+        "k": 35,
+        "correct": 28,
+        "wrong": 7,
+        "wrong_target_risk": 0.19999999999999996,
+        "coverage": 0.30701754385964913
+      },
+      "descriptive_margin_curve": [
+        {
+          "margin": 0,
+          "accepted": 114,
+          "correct": 54,
+          "coverage": 1.0,
+          "accuracy": 0.47368421052631576,
+          "wrong_target_risk": 0.5263157894736843
+        },
+        {
+          "margin": 0.01,
+          "accepted": 52,
+          "correct": 35,
+          "coverage": 0.45614035087719296,
+          "accuracy": 0.30701754385964913,
+          "wrong_target_risk": 0.32692307692307687
+        },
+        {
+          "margin": 0.02,
+          "accepted": 34,
+          "correct": 27,
+          "coverage": 0.2982456140350877,
+          "accuracy": 0.23684210526315788,
+          "wrong_target_risk": 0.20588235294117652
+        },
+        {
+          "margin": 0.04,
+          "accepted": 21,
+          "correct": 19,
+          "coverage": 0.18421052631578946,
+          "accuracy": 0.16666666666666666,
+          "wrong_target_risk": 0.09523809523809523
+        }
+      ]
+    }
+  }
+}

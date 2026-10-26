@@ -1,0 +1,66 @@
+{
+  "none": {
+    "postprocess_seconds": 0.0010855200000605691,
+    "category_change_rate": 0.0,
+    "n": 2,
+    "accepted": 1,
+    "correct": 1,
+    "wrong": 0,
+    "accuracy": 0.5,
+    "abstention_rate": 0.5,
+    "wrong_target_risk": 0.0,
+    "wrong_per_candidate": 0.0,
+    "relation_precision": null,
+    "relation_recall": null
+  },
+  "general": {
+    "postprocess_seconds": 0.0002394320001712913,
+    "category_change_rate": 0.0,
+    "n": 2,
+    "accepted": 1,
+    "correct": 1,
+    "wrong": 0,
+    "accuracy": 0.5,
+    "abstention_rate": 0.5,
+    "wrong_target_risk": 0.0,
+    "wrong_per_candidate": 0.0,
+    "relation_precision": null,
+    "relation_recall": null
+  },
+  "detailed": {
+    "postprocess_seconds": 0.0001634770001146535,
+    "category_change_rate": 0.0,
+    "n": 2,
+    "accepted": 1,
+    "correct": 1,
+    "wrong": 0,
+    "accuracy": 0.5,
+    "abstention_rate": 0.5,
+    "wrong_target_risk": 0.0,
+    "wrong_per_candidate": 0.0,
+    "relation_precision": null,
+    "relation_recall": null
+  },
+  "misleading": {
+    "postprocess_seconds": 0.0002206829999522597,
+    "category_change_rate": 0.0,
+    "n": 2,
+    "accepted": 1,
+    "correct": 1,
+    "wrong": 0,
+    "accuracy": 0.5,
+    "abstention_rate": 0.5,
+    "wrong_target_risk": 0.0,
+    "wrong_per_candidate": 0.0,
+    "relation_precision": null,
+    "relation_recall": null
+  },
+  "provenance": {
+    "synthetic_fixture": true,
+    "python": "3.12.14",
+    "feature_seconds_shared": 4.810001428268151e-07,
+    "manifest_sha256": "929a1d74acf5f36e75fa9401e6a65d1b642524909c8a7c3d3e1baaf109b49bb7",
+    "model": null,
+    "revision": null
+  }
+}

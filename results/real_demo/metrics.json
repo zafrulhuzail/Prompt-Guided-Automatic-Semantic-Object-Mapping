@@ -1,0 +1,66 @@
+{
+  "none": {
+    "postprocess_seconds": 0.00045294300025489065,
+    "category_change_rate": 0.0,
+    "n": 1,
+    "accepted": 1,
+    "correct": 1,
+    "wrong": 0,
+    "accuracy": 1.0,
+    "abstention_rate": 0.0,
+    "wrong_target_risk": 0.0,
+    "wrong_per_candidate": 0.0,
+    "relation_precision": null,
+    "relation_recall": null
+  },
+  "general": {
+    "postprocess_seconds": 0.00025318200005131075,
+    "category_change_rate": 0.0,
+    "n": 1,
+    "accepted": 1,
+    "correct": 1,
+    "wrong": 0,
+    "accuracy": 1.0,
+    "abstention_rate": 0.0,
+    "wrong_target_risk": 0.0,
+    "wrong_per_candidate": 0.0,
+    "relation_precision": null,
+    "relation_recall": null
+  },
+  "detailed": {
+    "postprocess_seconds": 0.0002137030000994855,
+    "category_change_rate": 0.0,
+    "n": 1,
+    "accepted": 1,
+    "correct": 1,
+    "wrong": 0,
+    "accuracy": 1.0,
+    "abstention_rate": 0.0,
+    "wrong_target_risk": 0.0,
+    "wrong_per_candidate": 0.0,
+    "relation_precision": null,
+    "relation_recall": null
+  },
+  "misleading": {
+    "postprocess_seconds": 0.00026055399985125405,
+    "category_change_rate": 0.0,
+    "n": 1,
+    "accepted": 1,
+    "correct": 1,
+    "wrong": 0,
+    "accuracy": 1.0,
+    "abstention_rate": 0.0,
+    "wrong_target_risk": 0.0,
+    "wrong_per_candidate": 0.0,
+    "relation_precision": null,
+    "relation_recall": null
+  },
+  "provenance": {
+    "synthetic_fixture": false,
+    "python": "3.12.14",
+    "feature_seconds_shared": 3.0466492079999625,
+    "manifest_sha256": "e1a17d902f3e25870d9f880a8daf4d3ceb723e5e87faaa4615e6e8bdc2256f4e",
+    "model": "openai/clip-vit-base-patch32",
+    "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+  }
+}

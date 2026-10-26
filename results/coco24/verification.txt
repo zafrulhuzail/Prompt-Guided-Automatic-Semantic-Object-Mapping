@@ -1,0 +1,1 @@
+Verified image hashes, frozen inputs, 8 conditions, 114 region references each and identical visual scores.

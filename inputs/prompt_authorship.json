@@ -1,0 +1,8 @@
+{
+  "author": "assistant, image-only visual inspection of 24-image contact sheet",
+  "annotation_labels_consulted": false,
+  "model_predictions_consulted": false,
+  "timestamp_utc": "2026-10-26T08:42:04.692318+00:00",
+  "sha256": "07f12ba316fc6864bfde99f165826e5f7b0fa1c515ba82eab71ea6ebde49aa9b",
+  "notes": "Exploratory pilot, not formal preregistration. Misleading descriptions intentionally mismatch scene; some mentioned classes may nevertheless be present."
+}

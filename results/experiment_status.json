@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-26",
+  "status": "completed_exploratory_pilot",
+  "real_visual_experiments_executed": true,
+  "dataset": "COCO 2017 validation, first 24 image IDs",
+  "images": 24,
+  "supplied_candidates": 114,
+  "vocabulary_size": 80,
+  "methods": ["literal_prior", "contextual_text"],
+  "conditions": ["none", "general", "detailed", "misleading"],
+  "unit_tests_passed": 13,
+  "real_image_demonstration_executed": true,
+  "fixture_executed": true,
+  "fixture_is_research_evidence": false,
+  "general_description_benefit_established": false,
+  "detailed_description_result": "Literal prior accepts 11 additional correct and eight additional incorrect predictions; exploratory matched-coverage ranking also improves.",
+  "relation_evaluation": "20 resolved assistant-reviewed pairs and two unknowns; heuristic accuracy 40%, below always-near 80%. Not public independent human semantic-relation ground truth.",
+  "scope": "Supplied-region semantic grounding, not automatic object discovery or 3D mapping",
+  "unity_integration": false,
+  "prior_status_preserved": "results/archive_initial/experiment_status.json"
+}

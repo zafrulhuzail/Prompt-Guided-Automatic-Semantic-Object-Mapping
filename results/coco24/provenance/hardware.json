@@ -1,0 +1,6 @@
+{
+  "cpu": "AMD EPYC 9V74 80-Core Processor (guest reports three vCPUs)",
+  "torch_threads": 2,
+  "os": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "seed": 0
+}

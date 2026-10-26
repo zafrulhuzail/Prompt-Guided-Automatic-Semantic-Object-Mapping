@@ -1,0 +1,122 @@
+{
+  "139": {
+    "general": "A residential living and dining room.",
+    "detailed": "A person stands in a room with a dining table, a chair, a television and a vase.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "285": {
+    "general": "An outdoor wildlife scene.",
+    "detailed": "A bear is standing in grass.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "632": {
+    "general": "A bedroom in a home.",
+    "detailed": "A bed with blue bedding is next to a dresser, bookshelves and a potted plant.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "724": {
+    "general": "A suburban road intersection.",
+    "detailed": "A stop sign stands beside a road with trees and distant buildings.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "776": {
+    "general": "An indoor collection of soft toys.",
+    "detailed": "A teddy bear rests against another teddy bear on fabric.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "785": {
+    "general": "A winter sports slope.",
+    "detailed": "A person uses skis and poles on a snowy slope.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "802": {
+    "general": "A domestic kitchen.",
+    "detailed": "An oven and a refrigerator stand next to wooden cabinets.",
+    "misleading": "A snowy slope with a person using skis and a snowboard."
+  },
+  "872": {
+    "general": "An outdoor sports field.",
+    "detailed": "A person with a baseball bat and another person stand on a baseball field.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "885": {
+    "general": "A professional tennis court.",
+    "detailed": "A person holds a tennis racket on a green court.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "1000": {
+    "general": "A group at an outdoor sports court.",
+    "detailed": "A group of people pose with a tennis racket on a court.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "1268": {
+    "general": "A riverside beneath a bridge.",
+    "detailed": "A person with a handbag looks toward water while other people sit by the river.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "1296": {
+    "general": "A crowded public gathering.",
+    "detailed": "A person holds a cell phone with both hands.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "1353": {
+    "general": "An indoor amusement ride.",
+    "detailed": "A person sits behind another person on a small amusement train.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "1425": {
+    "general": "A meal in a dining setting.",
+    "detailed": "A sandwich rests on a plate beside a fork.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "1490": {
+    "general": "A water sports scene.",
+    "detailed": "A person stands on a surfboard and holds a paddle on the water.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "1503": {
+    "general": "A home computing workspace.",
+    "detailed": "A laptop and a monitor stand on a desk with a keyboard and a mouse.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "1532": {
+    "general": "An urban highway with traffic.",
+    "detailed": "A car and a truck travel under road signs on a highway.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "1584": {
+    "general": "A busy city street.",
+    "detailed": "A red double decker bus drives down a street.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "1675": {
+    "general": "A domestic computing area.",
+    "detailed": "A cat lies on a laptop above its keyboard.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "1761": {
+    "general": "A harbor with an overhead air display.",
+    "detailed": "An airplane flies above a bridge over water with another airplane nearby.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "1818": {
+    "general": "An outdoor wildlife scene.",
+    "detailed": "A zebra stands closely beside another zebra on grass.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "1993": {
+    "general": "A small guest bedroom.",
+    "detailed": "A bed stands beside a chair and a small dining table by a window.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "2006": {
+    "general": "An urban street with public transport.",
+    "detailed": "A purple bus drives along a street beside buildings.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  },
+  "2149": {
+    "general": "A close view of fresh produce.",
+    "detailed": "An apple sits in a bowl beside another green apple.",
+    "misleading": "A kitchen containing a refrigerator, an oven and a microwave."
+  }
+}

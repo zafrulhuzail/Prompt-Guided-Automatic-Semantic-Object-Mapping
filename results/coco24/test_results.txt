@@ -1,0 +1,18 @@
+test_ambiguity (test_core.Tests.test_ambiguity) ... ok
+test_context_bounded (test_core.Tests.test_context_bounded) ... ok
+test_empty_acceptance (test_core.Tests.test_empty_acceptance) ... ok
+test_invalid (test_core.Tests.test_invalid) ... ok
+test_literal_interpretation (test_core.Tests.test_literal_interpretation) ... ok
+test_no_prompt_objects (test_core.Tests.test_no_prompt_objects) ... ok
+test_regions_and_no_part_of (test_core.Tests.test_regions_and_no_part_of) ... ok
+test_audit_ignores_unreviewed_pairs (test_experiment.ExperimentTests.test_audit_ignores_unreviewed_pairs) ... ok
+test_context_cannot_create_visual_evidence (test_experiment.ExperimentTests.test_context_cannot_create_visual_evidence) ... ok
+test_contextual_adjustment_bounded (test_experiment.ExperimentTests.test_contextual_adjustment_bounded) ... ok
+test_contextual_none_equals_original (test_experiment.ExperimentTests.test_contextual_none_equals_original) ... ok
+test_evaluation_requires_exact_ids (test_experiment.ExperimentTests.test_evaluation_requires_exact_ids) ... ok
+test_no_cross_image_relation (test_experiment.ExperimentTests.test_no_cross_image_relation) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.001s
+
+OK
